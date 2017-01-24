@@ -1,4 +1,4 @@
-FROM stakater/base
+FROM stakater/base:0.9.16
 
 MAINTAINER Ahmad Iqbal <ahmad@aurorasolutions.io>
 
