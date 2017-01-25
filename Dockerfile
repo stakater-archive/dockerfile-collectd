@@ -3,7 +3,7 @@ FROM stakater/base-alpine
 MAINTAINER Ahmad Iqbal <ahmad@aurorasolutions.io>
 
 RUN apk update && apk upgrade && \
-    apk add collectd collectd-curl \
+    apk add collectd collectd-curl collectd-python \
     collectd-write_http py-pip
 
 COPY docker-plugin/* /usr/lib/collectd/
